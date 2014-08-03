@@ -1,0 +1,19 @@
+{
+  "name": "whenever",
+  "version": "0.0.1",
+  "description": "Delay loading of modules until whenever actually needed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "require",
+    "delay",
+    "lazy",
+    "load",
+    "modules",
+    "async"
+  ],
+  "author": "Tomás Pollak <tomas@forkhq.com>",
+  "license": "MIT"
+}

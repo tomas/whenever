@@ -15,5 +15,6 @@
     "async"
   ],
   "author": "Tomás Pollak <tomas@forkhq.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }

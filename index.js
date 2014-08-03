@@ -1,7 +1,6 @@
 var ls       = require('fs').readdirSync,
-    path     = require('path'),
-    basename = path.basename,
-    resolve  = path.resolve;
+    basename = require('path').basename,
+    resolve  = require('path').resolve;
 
 module.exports = function(keys, path) {
   var obj = {};

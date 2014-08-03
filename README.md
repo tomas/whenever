@@ -19,6 +19,9 @@ Requiring a relative module on the same path.
     var whenever = require('whenever');
     var modules  = whenever('foo', __dirname);
 
+    console.log(modules); // {} -> not loaded yet.    
+    modules.foo.hello(); // requires and then prints 'Hello world';
+
 You can also pass an array and pre-load more than one module.
 
     var modules  = whenever(['foo', 'bar'], __dirname);

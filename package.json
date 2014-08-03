@@ -1,6 +1,6 @@
 {
   "name": "whenever",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Delay loading of modules until whenever actually needed.",
   "main": "index.js",
   "scripts": {

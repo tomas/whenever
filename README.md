@@ -36,7 +36,7 @@ If you need to use a npm/core module, you can also have it. Just don't pass the 
 
     var modules = whenever(['async', 'fs']);
 
-    modules.fs.readFile('/etc/password', function(err, res) {
+    modules.fs.readFile('/etc/passwd', function(err, res) {
       // continue hacking the gibson.
     })
 

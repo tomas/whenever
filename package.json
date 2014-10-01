@@ -1,7 +1,7 @@
 {
   "name": "whenever",
   "version": "0.0.3",
-  "description": "Delay loading of modules until whenever actually needed.",
+  "description": "Delay loading of any Node.js module until whenever really needed.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,9 @@
   ],
   "author": "Tomás Pollak <tomas@forkhq.com>",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomas/whenever.git"
+  }
 }

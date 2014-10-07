@@ -1,5 +1,6 @@
 Whenever
 ========
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tomas/whenever?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Lazy loading of modules in Node.js. If speed's your thing, this might come in handy.
 

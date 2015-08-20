@@ -3,7 +3,7 @@ var ls       = require('fs').readdirSync,
     resolve  = require('path').resolve;
 
 module.exports = function(keys, path) {
-  var obj = {};
+  var obj = { _keys: [] };
 
   if (keys === '*') {
     keys = ls(path);
@@ -13,6 +13,7 @@ module.exports = function(keys, path) {
 
   keys.forEach(function(mod) {
     var key = basename(mod).replace(/\.js$/, '');
+    obj._keys.push(key);
 
     Object.defineProperty(obj, key, {
       get: function() {
